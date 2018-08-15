@@ -1,0 +1,30 @@
+{
+    "name": "alexkada/feathersphp",
+    "description": "Hook Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Kadar",
+            "email": "alexander.kadar@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/database": "^5.7@dev",
+        "nikic/fast-route": "dev-master",
+        "aura/router": "3.x-dev",
+        "middlewares/aura-router": "dev-master",
+        "zendframework/zend-diactoros": "^1.7@dev",
+        "guzzlehttp/guzzle": "^6.3@dev",
+        "illuminate/events": "^5.7@dev",
+        "monolog/monolog": "^2.0@dev",
+        "vlucas/phpdotenv": "^2.5@dev"
+    },
+    "autoload": {
+        "psr-4": {
+        "Feathers\\": "src/classes/",
+        "Models\\": "src/models/"
+        }
+    }
+}
